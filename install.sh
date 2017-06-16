@@ -1,7 +1,7 @@
 #!/bin/bash
 # Make a quick ubuntu set up to host dojo-app
 #  - really quick and dirty, use it as memo -
-#170616.1020
+#170616.1050
 
 #pour tout désintaller rapidement pour tester le script install.sh
 sudo rm -rf bin/node bin/node-waf include/node lib/node lib/pkgconfig/nodejs.pc share/man/man1/node
@@ -13,7 +13,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 
 npm install
-#sudo npm install -g quasar-cli
+sudo npm install -g quasar-cli
 
 # Installe some packages
 sudo apt-get install -y git vim tmux lighttpd w3m
